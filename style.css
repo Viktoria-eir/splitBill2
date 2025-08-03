@@ -1,0 +1,149 @@
+body {
+    background-image: url(`photo-1592417817038-d13fd7342605.jpg`);
+    background-repeat: no-repeat;
+    /* Запобігає повторенню фону */
+    /*Prevents the background from repeating */
+    background-size: cover;
+    /* Застосовуємо розтягнення фону для покриття всього екрану */
+    /* Applies background stretch to cover the entire screen */
+    background-position: center;
+    /* Центруємо фон */
+    /* Centers the background */
+    color: #fff;
+    /* Колір тексту */
+    /* Text color */
+    font-family: Arial, sans-serif;
+    /* Шрифт для тексту */
+    /* Font for text */
+    background-color: rgba(94, 97, 93, 0.9);
+    /* Напівпрозорий фон для покращення читабельності тексту */
+    /* Semi-transparent background to improve text readability */
+
+    background-image: url('photo-1592417817038-d13fd7342605.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: rgb(24, 26, 23);
+    font-family: Arial, sans-serif;
+    background-color: rgba(248, 251, 250, 0.644);
+}
+
+#container {
+    width: 600px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-height: 700px;
+    background-color: rgba(248, 251, 250, 0.63);
+    display: flex;
+    border-radius: 10px;
+    border: 10px solid rgb(31, 238, 12);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    align-items: center;
+    color: rgb(24, 26, 23);
+    margin: auto;
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    font-family: "Montserrat", sans-serif;
+    margin: 20px;
+    padding: 20px;
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    color: #023e0e;
+    align-self: center;
+    text-shadow: 2px 2px 4px rgba(229, 9, 9, 0.5);
+
+}
+
+input {
+    font-family: "Montserrat", sans-serif;
+    padding: 5px;
+}
+
+#addTip {
+    background-color: rgb(31, 238, 12);
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#btn {
+    background-color: #ebe26d;
+    border: none;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#tip {
+    font-family: "Montserrat", sans-serif;
+    display: none;
+
+}
+
+#showTablAmoundToPay {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 15px;
+
+
+
+}
+
+#billSplit,
+#totalTip,
+#totalAmound {
+
+    background-color: #ebe26d;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 10px;
+    flex: 1;
+    min-width: 120px;
+    text-align: center;
+
+
+}
+
+#orderOptionsway {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(31, 238, 12);
+    border: none;
+    padding: 10px 20px;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+@media all and (max-width: 800px) {
+    
+    h1 {
+        font-size: 40px;
+    }
+   
+    
+}
+@media all and (max-width: 500px) {
+
+    h1 {
+        font-size: 40px;
+    }
+
+
+}
